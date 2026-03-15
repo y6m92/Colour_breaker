@@ -1,4 +1,5 @@
-
+# I acknowledge the use of Microsoft Copilot for reviewing and understanding the code.
+# All code in this file was written by me.
 
 import random
 
