@@ -43,5 +43,13 @@ while attempts > 0 and not won:
         
     attempts -= 1
 
-
+if not won:
+    print("\nYou ran out of attempts.")
+    print("The secret code was:"," ".join(secret))
+    
+play_again = input("\nPlay again? (y/n): ").lower()
+if play_again == "y":
+    print("Restart the game to play again.")
+else:
+    print("Thanks for playing!")
 
